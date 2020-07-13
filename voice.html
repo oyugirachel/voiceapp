@@ -1,0 +1,30 @@
+<html><head>
+        <title>Page Title</title>
+        <link rel="stylesheet" type="text/css" href="css/voice.css">
+        <script type="text/javascript">
+    setInterval(changeColor, 1000);
+     function changeColor() {
+      var x=document.getElementById("heading");
+      if(x.style.color=="green")
+       x.style.color="red";
+      else if (x.style.color=="red")
+       x.style.color="blue";
+      else if (x.style.color=="blue")
+       x.style.color="black";
+      else x.style.color="green";
+     }
+   </script>
+   <script src="js/voice.js"></script>
+    </head>
+    <body>
+     
+        <div id="content">
+            <div style="text-align: center">
+              <h1 id="heading">Welcome to Rachel's Voice assistant:)</h1>
+                <textarea id="txt" placeholder="Enter some text"></textarea>
+                <button id="speak">Speak</button>
+            </div>
+        </div>
+    
+
+</body></html>

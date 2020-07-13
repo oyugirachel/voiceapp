@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color:coral;
+}
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    text-align:center ;
+}
+#txt{
+    color:black;
+}
+textarea {
+    width: 90vw;
+    min-width: 90vw;
+    max-width: 90vw;
+    min-height: 50vh;
+    padding: 5px;
+    background-color:teal;
+    align-items:center ;
+}
+button {
+    display: block;
+    height: 25pt;
+    width: 100%;
+    border: solid 1px #AAA;
+    background-color: teal;
+}
+button:active, button:focus {
+    outline: none;
+    border: solid 1px #333;
+}
